@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIEW ALL CONTACTS</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body background="images/background2.png">
+    <div class="contacts-container">
+        <h1>EMPLOYEE CONTACTS</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>NAME</th>
+                    <th>EMAIL</th>
+                    <th>PHONE</th>
+                    <th>DEPARTMENT</th>
+                    <th>ACTIONS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>JohnStone Smith</td>
+                    <td>johnstone.smith@gmail.com</td>
+                    <td>+2547</td>
+                    <td>Designs</td>
+                    <td>
+                        <button onclick="viewDetails('JohnStone Smith')">Details</button>
+                        <button onclick="editContact('JohnStone Smith')">Edit</button>
+                        <button onclick="deleteContact('JohnStone Smith')">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Alison Argent</td>
+                    <td>alison.argent@gmail.com</td>
+                    <td>+2547</td>
+                    <td>Marketing</td>
+                    <td>
+                        <button onclick="viewDetails('Alison Argent')">Details</button>
+                        <button onclick="editContact('Alison Argent')">Edit</button>
+                        <button onclick="deleteContact('Alison Argent')">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Stiles Stilinski</td>
+                    <td>stiles.stilinski@gmail.com</td>
+                    <td>+2547</td>
+                    <td>Human Resources</td>
+                    <td>
+                        <button onclick="viewDetails('Stiles Stilinski')">Details</button>
+                        <button onclick="editContact('Stiles Stilinski')">Edit</button>
+                        <button onclick="deleteContact('Stiles Stilinski')">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Derek Hale</td>
+                    <td>derek.hale@gmail.com</td>
+                    <td>+2547</td>
+                    <td>Sales</td>
+                    <td>
+                        <button onclick="viewDetails('Derek Hale')">Details</button>
+                        <button onclick="editContact('Derek Hale')">Edit</button>
+                        <button onclick="deleteContact('Derek Hale')">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Scott McCall</td>
+                    <td>scott.mccall@gmail.com</td>
+                    <td>+2547</td>
+                    <td>IT</td>
+                    <td>
+                        <button onclick="viewDetails('Scott McCall')">Details</button>
+                        <button onclick="editContact('Scott McCall')">Edit</button>
+                        <button onclick="deleteContact('Scott McCall')">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Lydia Martin</td>
+                    <td>lydia.martin@gmail.com</td>
+                    <td>+2547</td>
+                    <td>Finance</td>
+                    <td>
+                        <button onclick="viewDetails('Lydia Martin')">Details</button>
+                        <button onclick="editContact('Lydia Martin')">Edit</button>
+                        <button onclick="deleteContact('Lydia Martin')">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
